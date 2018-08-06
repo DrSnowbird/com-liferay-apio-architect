@@ -24,3 +24,11 @@ deploy {
 		project.hasProperty "sample-whiteboard"
 	}
 }
+
+sourceSets {
+	main {
+		java {
+			srcDir "${projectDir}/classes"
+		}
+	}
+}
